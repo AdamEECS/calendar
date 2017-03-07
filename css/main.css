@@ -1,0 +1,47 @@
+.done {
+    color: gray;
+    text-decoration: line-through;
+    background: lightblue;
+}
+.header > div {
+    display: inline-block;
+}
+.header {
+    position: relative;
+    text-align: center;
+}
+.left {
+    position: absolute;
+    left: 0;
+}
+.right {
+    position: absolute;
+    right: 0;
+}
+.float-right {
+    float: right;
+}
+.center {
+    margin: 0 auto;
+}
+.relative-container {
+    display: block;
+    position: relative;
+}
+.flex-item-1 {
+    flex-grow: 1;
+}
+.flex-item-0 {
+    flex-grow: 0;
+}
+.todo-item {
+    min-width: 262px;
+}
+.todo-cell {
+    position: relative;
+    width: 500px;
+}
+.todo-content {
+    display: inline;
+    word-break: break-all;
+}
