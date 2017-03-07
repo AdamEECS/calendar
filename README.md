@@ -1,5 +1,5 @@
-### Calendar
+# Calendar
 
-## Example
+### Example
 
 ![](static/ex01.png)
