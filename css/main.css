@@ -1,7 +1,7 @@
 .done {
     color: gray;
     text-decoration: line-through;
-    background: lightblue;
+    background: lightgrey;
 }
 .header > div {
     display: inline-block;
@@ -44,4 +44,18 @@
 .todo-content {
     display: inline;
     word-break: break-all;
+}
+.todo-time {
+    font-family: Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+}
+.input-title {
+    border: 0px;
+    font-size: 18px;
+    width: 100%;
+}
+.input-content, #date-selector, #time-selector {
+    border: 0px;
+}
+.input-title, .input-content, #date-selector, #time-selector, :focus {
+    outline: none;
 }
