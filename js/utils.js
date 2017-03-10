@@ -73,7 +73,6 @@ const dateFormat = function(time) {
 
 const hourMinuteFormat = function(time) {
     var d = new Date(time)
-
     var ui = format10(d.getHours())
     var ff = format10(d.getMinutes())
 
