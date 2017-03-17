@@ -78,3 +78,7 @@ const hourMinuteFormat = function(time) {
 
     return `${ui}:${ff}`
 }
+
+const datatimeFormat = function(time) {
+    return ``
+}
